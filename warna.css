@@ -254,3 +254,208 @@ body {
 .btn:hover {
     background-color: #0056b3;
     }
+
+#info-layanan{
+    padding: 200px 200px;
+    font-family: Arial, sans-serif;
+    background-image: url('foto/Jalan Tol.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+#info-layanan h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#info-layanan h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-top: -150px;
+    position: left;
+}
+.halaman img {
+    width: 100%;
+    max-width: 200px;
+    position: left;
+    margin-top: -350px;
+    margin-bottom: 100px;
+    margin-left: -150px;
+}
+
+.layanan {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-bottom: 80px;   
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.layanan-item {
+    flex: 1 1 calc(33.333% - 20px); /* Lebar sekitar 1/3 dikurangi jarak */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;    
+    color: inherit; 
+}
+
+.layanan-item img {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;          
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layanan-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1c1c1e;
+    align-items: center;
+    text-decoration: none;    
+    color: inherit;           
+    transition: transform 0.3s ease;
+    display: block;          
+}
+
+.layanan-item:hover {
+    transform: scale(1.03);    
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#Media{
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 300px;
+    margin-left: -100px;
+    margin-right: -100px;
+
+}
+
+#Media .judul h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1c1c1e;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+#Media .judul span {
+  color: #1e88e5;
+}
+
+#Media .judul p {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+
+#Media .filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#Media .filter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #e0e0e0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#Media .filter .active {
+  background: #1e88e5;
+  color: white;
+}
+
+.tombol {
+    display: inline-block;
+    position: left ;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tombol:hover {
+    background-color: #0056b3;
+}
+
+.grid-berita {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.berita-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  background: white;
+  position: relative;
+  transition: transform 0.3s ease;
+    display: block
+}
+
+.berita-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.berita-item .konten {
+  padding: 15px;
+}
+
+.kategori {
+  font-size: 14px;
+  color: #1e88e5;
+  margin: 0;
+}
+
+.berita-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #111;
+}
+
+.tanggal {
+  font-size: 13px;
+  color: #888;
+}
+
+.berita-item:hover {
+    transform: scale(1.03);    
+}
+
+#visidanharapan {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 1000px;
+}
